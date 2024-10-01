@@ -1,0 +1,114 @@
+body{
+  font-family: "Roboto Light",sans-serif;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  color: #3f51b5;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.forgot-password {
+  color: #3f51b5;
+  text-decoration: none;
+}
+
+.btn-login,
+.btn-signup {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-login {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.btn-signup {
+  background-color: white;
+  color: #3f51b5;
+  border: 1px solid #3f51b5;
+}
+
+.social-login {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-social {
+  flex: 1;
+  padding: 0.5rem;
+  margin: 0 0.25rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+  color: white;
+}
+
+.btn-linkedin {
+  background-color: #0077b5;
+  color: white;
+}
+
+.btn-google {
+  background-color: #db4437;
+  color: white;
+}
